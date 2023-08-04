@@ -1,12 +1,50 @@
-.texto {
-  margin-top: 60px;
-  margin-left: 20px;
+.boxTexto{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   align-self: stretch;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #271a45;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;  
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
   font-family: Crimson Pro;
   font-weight: 600;
   font-size: 32px;
   color: #271a45;  
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  color: #271a45;
+}
+
+.botaoComprar {
+  cursor: pointer;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 999px;
+  border: 0.5px solid #271a45;
+
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
 }
