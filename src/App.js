@@ -1,8 +1,12 @@
-import React from 'react'
-import Sofa from './components/sofa'
+import React from "react";
+import SofaTexto from "./components/sofaTexto";
+import SofaFoto from "./components/sofaFoto";
 
 export default function App() {
   return (
-    <Sofa />
-  )
+    <>
+      <SofaFoto />
+      <SofaTexto />
+    </>
+  );
 }

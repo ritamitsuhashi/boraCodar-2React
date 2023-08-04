@@ -1,0 +1,12 @@
+.texto {
+  margin-top: 60px;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  font-family: Crimson Pro;
+  font-weight: 600;
+  font-size: 32px;
+  color: #271a45;  
+}
